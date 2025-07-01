@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mediboyina Praveen Kumar - Java Full Stack Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="particleCanvas"></canvas>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">MPK</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#achievements" class="nav-link">Achievements</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-name">Mediboyina Praveen Kumar</h1>
+                <div class="hero-title">
+                    <span class="typing-text"></span>
+                    <span class="cursor">|</span>
+                </div>
+                <p class="hero-description">
+                    Passionate about creating innovative solutions with clean, efficient code
+                </p>
+                <div class="hero-buttons">
+                    <a href="#resume" class="btn btn-primary">Download Resume</a>
+                    <a href="#projects" class="btn btn-secondary">View Projects</a>
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="profile-container">
+                    <div class="profile-image">
+                        <img src="image/p.jpg" alt="Mediboyina Praveen Kumar" class="profile-photo-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-description">
+                        I'm a dedicated Java Full Stack Developer with a passion for creating robust, scalable applications that solve real-world problems. My journey in software development has been driven by curiosity and a commitment to continuous learning. I specialize in building end-to-end solutions using Java, Spring Boot, and modern web technologies.
+                    </p>
+                    <p class="about-description">
+                        With hands-on experience gained through internships and personal projects, I've developed a strong foundation in both backend and frontend development. I believe in writing clean, maintainable code and creating user experiences that are both functional and intuitive. My goal is to contribute to innovative projects that make a positive impact while continuously expanding my technical expertise.
+                    </p>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>Java Full Stack Internship</h4>
+                                <p>Braionvision Technologies</p>
+                                <span class="timeline-date">2024</span>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>Software Development Journey</h4>
+                                <p>Mastering Java, Spring Boot & Web Technologies</p>
+                                <span class="timeline-date">2023-Present</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Languages</h3>
+                    <div class="skill-items">
+                        <div class="skill-card">
+                            <div class="skill-icon">☕</div>
+                            <span>Java</span>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">🐍</div>
+                            <span>Python</span>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">⚡</div>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skill-items">
+                        <div class="skill-card">
+                            <div class="skill-icon">🌐</div>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">🎨</div>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">📱</div>
+                            <span>Responsive Design</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <div class="skill-items">
+                        <div class="skill-card">
+                            <div class="skill-icon">🍃</div>
+                            <span>Spring Boot</span>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">🗄️</div>
+                            <span>MySQL</span>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">🔧</div>
+                            <span>REST APIs</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools</h3>
+                    <div class="skill-items">
+                        <div class="skill-card">
+                            <div class="skill-icon">📱</div>
+                            <span>Git</span>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">💻</div>
+                            <span>VS Code</span>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">🎯</div>
+                            <span>IntelliJ</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>MyMusicMyStudies</h3>
+                        <div class="project-type">Web Application</div>
+                    </div>
+                    <p class="project-description">
+                        A hybrid platform combining music streaming and study resources, featuring an intuitive interface for productivity and entertainment.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML5</span>
+                        <span class="tech-tag">CSS3</span>
+                        <span class="tech-tag">JavaScript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://khasimm06.github.io/mymusic-mystudies/" class="project-btn btn-primary">View Code</a>
+                        <a href="https://khasimm06.github.io/mymusic-mystudies/" class="project-btn btn-secondary">Live Demo</a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Seminar Hall Booking System</h3>
+                        <div class="project-type">Full Stack</div>
+                    </div>
+                    <p class="project-description">
+                        Smart slot-booking system for educational institutions with real-time availability, user authentication, and admin dashboard.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Java</span>
+                        <span class="tech-tag">Spring Boot</span>
+                        <span class="tech-tag">MySQL</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-btn btn-primary">View Code</a>
+                        <a href="#" class="project-btn btn-secondary">Live Demo</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Portfolio Website</h3>
+                        <div class="project-type">Frontend</div>
+                    </div>
+                    <p class="project-description">
+                        Modern, responsive developer portfolio with futuristic design, smooth animations, and interactive elements built from scratch.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML5</span>
+                        <span class="tech-tag">CSS3</span>
+                        <span class="tech-tag">JavaScript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://praveen-portfolio-website.lovable.app" class="project-btn btn-primary">View Code</a>
+                        <a href="https://praveen-portfolio-website.lovable.app" class="project-btn btn-secondary">Live Demo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements">
+        <div class="container">
+            <h2 class="section-title">Achievements & Experience</h2>
+            <div class="achievements-grid">
+                <div class="achievement-card">
+                    <div class="achievement-icon">🏢</div>
+                    <h3>Java Full Stack Internship</h3>
+                    <p>Braionvision Technologies - Gained hands-on experience in enterprise-level Java development</p>
+                    <span class="achievement-date">2024</span>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon">🚀</div>
+                    <h3>Accenture Internship</h3>
+                    <p>Worked on cutting-edge technology solutions and gained industry exposure</p>
+                    <span class="achievement-date">2024</span>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon">🎯</div>
+                    <h3>Project Portfolio</h3>
+                    <p>Built multiple full-stack applications demonstrating technical skills and problem-solving abilities</p>
+                    <span class="achievement-date">2023-2024</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume">
+        <div class="container">
+            <div class="resume-content">
+                <h2>Download Resume</h2>
+                <p>Get a detailed overview of my experience, skills, and projects</p>
+                <a href="public\Praveen resume(final) (1).pdf" class="resume-btn" id="downloadResume">
+                    <span class="btn-text">Download PDF</span>
+                    <span class="btn-icon">📄</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <p>+91 6304588624</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">✉️</div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>praveenkumarmediboyina@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://linkedin.com/in/mediboyina-praveen-kumar-74a44a364" class="social-link">LinkedIn</a>
+                        <a href="https://github.com/mediboyinapraveenkumar" class="social-link">GitHub</a>
+                        <a href="#" class="social-link">Instagram</a>
+                      <a href="https://wa.me/6304588624" class="social-link">Whatsapp</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Mediboyina Praveen Kumar. Built with passion and code.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
